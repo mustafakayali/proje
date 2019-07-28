@@ -1,0 +1,5 @@
+git clone https://github.com/mustafakayali/proje.git // indirme
+
+git push -u origin master
+
+git pull origin dal_ismi
