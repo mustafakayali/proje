@@ -325,6 +325,7 @@
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.btn_icecekler);
             this.Controls.Add(this.etiket1);
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmOda1";
@@ -333,6 +334,7 @@
             this.Activated += new System.EventHandler(this.frmOda1_Activated);
             this.Deactivate += new System.EventHandler(this.frmOda1_Deactivate);
             this.Load += new System.EventHandler(this.frmOda1_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmOda1_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.oda1AdisyonBindingSource4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barDataSet)).EndInit();

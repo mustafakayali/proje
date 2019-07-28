@@ -199,6 +199,7 @@
             this.Controls.Add(this.txtAdet);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmIcecekler";
@@ -206,6 +207,8 @@
             this.Text = "FrmIcecekler";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmIcecekler_FormClosing);
             this.Load += new System.EventHandler(this.FrmIcecekler_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmIcecekler_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmIcecekler_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ıceceklerTablosuBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barDataSet1)).EndInit();

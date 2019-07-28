@@ -33,3 +33,21 @@ E:\GondolApart - Kopya\GondolApart\obj\Debug\GondolApart.csproj.GenerateResource
 E:\GondolApart - Kopya\GondolApart\obj\Debug\GondolApart.csproj.CoreCompileInputs.cache
 E:\GondolApart - Kopya\GondolApart\obj\Debug\GondolApart.exe
 E:\GondolApart - Kopya\GondolApart\obj\Debug\GondolApart.pdb
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\bin\Debug\Bar.sdf
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\bin\Debug\GondolApart.exe.config
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\bin\Debug\GondolApart.exe
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\bin\Debug\GondolApart.pdb
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.csprojAssemblyReference.cache
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.Form1.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.frmCreditCard.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.frmFiyatGuncelle.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.FrmIcecekler.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.frmKasa.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.frmOda1.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.frmOda2.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.btn_IceceklerFiyatGuncelleme.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.Properties.Resources.resources
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.csproj.GenerateResource.cache
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.csproj.CoreCompileInputs.cache
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.exe
+C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.pdb

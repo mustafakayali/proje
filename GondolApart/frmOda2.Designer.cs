@@ -45,6 +45,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtToplam = new System.Windows.Forms.TextBox();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.txtSecilen = new System.Windows.Forms.TextBox();
+            this.btnKasa = new System.Windows.Forms.Button();
+            this.etiket1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.barDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.oda2AdisyonBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -95,6 +99,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(544, 411);
             this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellClick);
             // 
             // adDataGridViewTextBoxColumn
             // 
@@ -180,12 +185,55 @@
             this.txtToplam.TabIndex = 15;
             this.txtToplam.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // btnSil
+            // 
+            this.btnSil.BackgroundImage = global::GondolApart.Properties.Resources.sil;
+            this.btnSil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSil.Location = new System.Drawing.Point(883, 259);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(129, 123);
+            this.btnSil.TabIndex = 18;
+            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.BtnSil_Click);
+            // 
+            // txtSecilen
+            // 
+            this.txtSecilen.Location = new System.Drawing.Point(887, 233);
+            this.txtSecilen.Name = "txtSecilen";
+            this.txtSecilen.Size = new System.Drawing.Size(100, 20);
+            this.txtSecilen.TabIndex = 19;
+            // 
+            // btnKasa
+            // 
+            this.btnKasa.BackgroundImage = global::GondolApart.Properties.Resources.cash;
+            this.btnKasa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnKasa.Location = new System.Drawing.Point(1229, 259);
+            this.btnKasa.Name = "btnKasa";
+            this.btnKasa.Size = new System.Drawing.Size(129, 123);
+            this.btnKasa.TabIndex = 20;
+            this.btnKasa.UseVisualStyleBackColor = true;
+            this.btnKasa.Click += new System.EventHandler(this.BtnKasa_Click);
+            // 
+            // etiket1
+            // 
+            this.etiket1.AutoSize = true;
+            this.etiket1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.etiket1.Location = new System.Drawing.Point(1307, 12);
+            this.etiket1.Name = "etiket1";
+            this.etiket1.Size = new System.Drawing.Size(51, 18);
+            this.etiket1.TabIndex = 21;
+            this.etiket1.Text = "Oda2";
+            // 
             // frmOda2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.etiket1);
+            this.Controls.Add(this.btnKasa);
+            this.Controls.Add(this.txtSecilen);
+            this.Controls.Add(this.btnSil);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtToplam);
@@ -193,6 +241,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_icecekler);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.KeyPreview = true;
             this.Name = "frmOda2";
             this.Text = "Room2 // Oda2";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -227,5 +276,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtToplam;
+        private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.TextBox txtSecilen;
+        private System.Windows.Forms.Button btnKasa;
+        private System.Windows.Forms.Label etiket1;
     }
 }

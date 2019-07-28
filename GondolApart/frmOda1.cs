@@ -261,5 +261,10 @@ namespace GondolApart
             
             //e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
+        private void FrmOda1_KeyUp(object sender, KeyEventArgs e)
+        {
+            
+        }
     }
 }

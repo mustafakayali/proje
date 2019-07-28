@@ -118,5 +118,13 @@ namespace GondolApart
                 //MessageBox.Show("HATA","HUCRE SECMELISIN");
             }
         }
+
+        private void Btn_IceceklerFiyatGuncelleme_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

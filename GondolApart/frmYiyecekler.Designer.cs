@@ -215,6 +215,7 @@
             this.Controls.Add(this.txtBirimFiyat);
             this.Controls.Add(this.txtSecilen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "btn_IceceklerFiyatGuncelleme";
@@ -223,6 +224,7 @@
             this.Text = "frmYiyecekler";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.frmYiyecekler_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Btn_IceceklerFiyatGuncelleme_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.ıceceklerTablosuBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ıceceklerTablosuBindingSource)).EndInit();
