@@ -45,6 +45,7 @@
             this.btn_Oda5 = new System.Windows.Forms.Button();
             this.btn_Oda1 = new System.Windows.Forms.Button();
             this.resim1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.resim1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -238,12 +239,22 @@
             this.resim1.TabStop = false;
             this.resim1.DoubleClick += new System.EventHandler(this.resim1_DoubleClick);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(802, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Gondol Apart";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Guncelleme);
             this.Controls.Add(this.btn_Oda4);
             this.Controls.Add(this.btn_Oda3);
@@ -269,6 +280,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.resim1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -292,6 +304,7 @@
         private System.Windows.Forms.Button btn_Oda14;
         private System.Windows.Forms.Button btn_Oda15;
         private System.Windows.Forms.Button btn_Guncelleme;
+        private System.Windows.Forms.Label label1;
     }
 }
 

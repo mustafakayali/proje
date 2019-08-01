@@ -51,3 +51,6 @@ C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.csproj.Ge
 C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.csproj.CoreCompileInputs.cache
 C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.exe
 C:\Users\mustafa\Desktop\GondolApart\GondolApart\obj\Debug\GondolApart.pdb
+C:\Users\ATD\Desktop\bar_projesi\proje\GondolApart\bin\Debug\GondolApart.exe.config
+C:\Users\ATD\Desktop\bar_projesi\proje\GondolApart\obj\Debug\GondolApart.exe
+C:\Users\ATD\Desktop\bar_projesi\proje\GondolApart\obj\Debug\GondolApart.pdb
